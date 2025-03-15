@@ -8,3 +8,7 @@ public class Lab004_operator_practice {
 //expression A = --a -> 19, a=19
 //expression B = a++ -> 19, a=20
 //expression C = a-- -> 20, a 19
+
+//19+19+20 = 58
+
+//a = 19
