@@ -8,7 +8,6 @@ public class Constructors {
         p2.sleep();
         p2.walk();
 
-
     }
 
 }
