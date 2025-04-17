@@ -8,6 +8,8 @@ public class lab001_WrapperClass {
         iphone.setPrice(300000);
         System.out.println(iphone.getPrice());
         iphone.calling();
+        Mobile.method12();
+        System.out.println(Mobile.sim);
 
 
 
@@ -18,6 +20,8 @@ class Mobile extends cellular{
     private Integer price;
     private String name;
     private Double Version;
+    static Integer sim = 2;
+
 
     void Mobile()
     {
@@ -28,6 +32,10 @@ class Mobile extends cellular{
         this.price = price;
         this.name = name;
         Version = version;
+    }
+
+    static void method12(){
+        System.out.println("This is static method");
     }
 
     public Integer getPrice() {
